@@ -1,92 +1,62 @@
-# HôtelWeb
+# Projet de Session : Système de Réservation de Chambres d'Hôtel
 
+**Équipe 1 :** 
+- Ralph Christian Gabriel
+- Jérémy Cormier
+- Maël Mane
 
+---
 
-## Getting started
+# Objectif du Projet:
+L'objectif principal de ce projet est de créer une application permettant aux utilisateurs de rechercher des chambres d'hôtel disponibles, de réserver des chambres, de gérer leurs réservations et de recevoir des confirmations par courriel. L'application devra également intégrer un système d'authentification pour les utilisateurs. Le projet mettra l'accent sur l'ergonomie de l'interface utilisateur et la mise en œuvre de fonctionnalités en temps réel pour améliorer l'interaction entre les utilisateurs.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+---
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Fonctionnalités Requises:
 
-## Add your files
+1. **Interface Utilisateur pour la Recherche:** Création d'une interface utilisateur conviviale pour la recherche de chambres d'hôtel disponibles, y compris des filtres pour les dates, le nombre de personnes, etc.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+2. **Gestion des Réservations:** Les utilisateurs pourront réserver des chambres, visualiser leurs réservations actuelles et annuler des réservations si nécessaire.
 
-```
-cd existing_repo
-git remote add origin https://git.dti.crosemont.quebec/jcormier1/hotelweb.git
-git branch -M main
-git push -uf origin main
-```
+3. **Envoi d'E-mails:** Intégration d'un système d'envoi d'e-mails pour les confirmations de réservation, les rappels de réservation, etc.
 
-## Integrate with your tools
+4. **Authentification des Utilisateurs:** 
+   - Utilisez ASP.NET Core Identity pour l'authentification des utilisateurs, y compris l'inscription, la connexion, la gestion de mots de passe, et la gestion des sessions utilisateur.
+   - Ouverture à des systèmes d'authentification externes : Envisagez l'intégration possible avec des systèmes d'authentification externes tels que Facebook ou Google, en utilisant ASP.NET Core Identity.
+   - Gestion des confirmations par e-mail et des réinitialisations de mots de passe : Utilisez ASP.NET Core Identity pour gérer la confirmation d'e-mail et la réinitialisation de mots de passe.
+   - Authentification à deux facteurs : Mettez en place un système d'authentification à deux facteurs en utilisant ASP.NET Core Identity.
 
-- [ ] [Set up project integrations](https://git.dti.crosemont.quebec/jcormier1/hotelweb/-/settings/integrations)
+5. **Chat en Temps Réel:** Utilisez SignalR pour mettre en place un système de chat en ligne en temps réel, avec la possibilité d'intégrer des composants Blazor pour une expérience utilisateur améliorée.
 
-## Collaborate with your team
+6. **Intégration de Paiement (Option):** Les étudiants peuvent explorer l'intégration d'un système de paiement en ligne pour les réservations. Cette fonctionnalité est optionnelle, mais peut améliorer l'expérience utilisateur.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+---
 
-## Test and Deploy
+## Technologies Utilisées:
+- ASP.NET Core
+- Razor
+- Entity Framework Core
+- SQL Server
+- SignalR
+- ASP.NET Core Identity
+- Blazor (optionnel)
 
-Use the built-in continuous integration in GitLab.
+---
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+## Consignes de Configuration:
+Toutes les configurations spécifiques au projet et les étapes nécessaires pour exécuter l'application seront fournies ici. Assurez-vous de suivre toutes les étapes pour garantir le bon fonctionnement de l'application.
 
-***
+---
 
-# Editing this README
+## Remarques:
+Toutes les remarques ou informations supplémentaires concernant le projet seront fournies ici.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+---
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+**Date de Remise:** 13 décembre 2023
 
-## Name
-Choose a self-explaining name for your project.
+**Professeur:** D. Ahamada
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+**Cours:** Applications Web 3 420-G63-RO
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+---
