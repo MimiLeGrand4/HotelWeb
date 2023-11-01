@@ -9,157 +9,157 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetHotel
 build_property.RootNamespace = ProjetHotel
-build_property.ProjectDir = C:\Users\Mael\source\repos\ProjetHotel\
+build_property.ProjectDir = C:\Users\maelm\OneDrive\Bureau\Web3\Projet\hotelweb\ProjetHotel\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Mael\source\repos\ProjetHotel
+build_property.MSBuildProjectDirectory = C:\Users\maelm\OneDrive\Bureau\Web3\Projet\hotelweb\ProjetHotel
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Chambres/Create.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Chambres/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbWJyZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Chambres/Delete.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Chambres/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbWJyZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Chambres/Details.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Chambres/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbWJyZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Chambres/Edit.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Chambres/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbWJyZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Chambres/Index.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Chambres/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbWJyZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Clients/Create.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Clients/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Clients/Delete.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Clients/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Clients/Details.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Clients/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Clients/Edit.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Clients/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Clients/Index.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Clients/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Home/Index.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Home/Privacy.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Hotels/Create.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Hotels/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Hotels/Delete.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Hotels/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Hotels/Details.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Hotels/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Hotels/Edit.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Hotels/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Hotels/Index.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Hotels/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Messages/Create.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Messages/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Messages/Delete.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Messages/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Messages/Details.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Messages/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Messages/Edit.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Messages/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Messages/Index.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Messages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Paiements/Create.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Paiements/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpZW1lbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Paiements/Delete.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Paiements/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpZW1lbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Paiements/Details.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Paiements/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpZW1lbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Paiements/Edit.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Paiements/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpZW1lbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Paiements/Index.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Paiements/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpZW1lbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Reservations/Create.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Reservations/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Reservations/Delete.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Reservations/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Reservations/Details.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Reservations/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Reservations/Edit.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Reservations/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Reservations/Index.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Reservations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Shared/Error.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/_ViewImports.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/_ViewStart.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mael/source/repos/ProjetHotel/Views/Shared/_Layout.cshtml]
+[C:/Users/maelm/OneDrive/Bureau/Web3/Projet/hotelweb/ProjetHotel/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t490c6p0ob
