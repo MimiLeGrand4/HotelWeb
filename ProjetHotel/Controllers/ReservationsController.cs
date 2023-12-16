@@ -21,7 +21,7 @@ namespace ProjetHotel.Controllers
         // GET: Reservations
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Reservations.Include(r => r.Chambre).Include(r => r.Client).Include(r => r.Hotel);
+            var applicationDbContext = _context.Reservations.Include(r => r.Chambre).Include(r => r.Client);
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -36,7 +36,6 @@ namespace ProjetHotel.Controllers
             var reservation = await _context.Reservations
                 .Include(r => r.Chambre)
                 .Include(r => r.Client)
-                .Include(r => r.Hotel)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (reservation == null)
             {
@@ -51,7 +50,6 @@ namespace ProjetHotel.Controllers
         {
             ViewData["ChambreId"] = new SelectList(_context.Chambres, "Id", "Id");
             ViewData["ClientId"] = new SelectList(_context.Clients, "Id", "Id");
-            ViewData["HotelId"] = new SelectList(_context.Hotels, "Id", "Id");
             return View();
         }
 
@@ -60,7 +58,7 @@ namespace ProjetHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,DateDébut,DateFin,PrixCenne,ClientId,HotelId,ChambreId")] Reservation reservation)
+        public async Task<IActionResult> Create([Bind("Id,DateDébut,DateFin,Prix,ClientId,ChambreId")] Reservation reservation)
         {
             if (ModelState.IsValid)
             {
@@ -70,7 +68,6 @@ namespace ProjetHotel.Controllers
             }
             ViewData["ChambreId"] = new SelectList(_context.Chambres, "Id", "Id", reservation.ChambreId);
             ViewData["ClientId"] = new SelectList(_context.Clients, "Id", "Id", reservation.ClientId);
-            ViewData["HotelId"] = new SelectList(_context.Hotels, "Id", "Id", reservation.HotelId);
             return View(reservation);
         }
 
@@ -89,7 +86,6 @@ namespace ProjetHotel.Controllers
             }
             ViewData["ChambreId"] = new SelectList(_context.Chambres, "Id", "Id", reservation.ChambreId);
             ViewData["ClientId"] = new SelectList(_context.Clients, "Id", "Id", reservation.ClientId);
-            ViewData["HotelId"] = new SelectList(_context.Hotels, "Id", "Id", reservation.HotelId);
             return View(reservation);
         }
 
@@ -98,7 +94,7 @@ namespace ProjetHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,DateDébut,DateFin,PrixCenne,ClientId,HotelId,ChambreId")] Reservation reservation)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,DateDébut,DateFin,Prix,ClientId,ChambreId")] Reservation reservation)
         {
             if (id != reservation.Id)
             {
@@ -127,7 +123,6 @@ namespace ProjetHotel.Controllers
             }
             ViewData["ChambreId"] = new SelectList(_context.Chambres, "Id", "Id", reservation.ChambreId);
             ViewData["ClientId"] = new SelectList(_context.Clients, "Id", "Id", reservation.ClientId);
-            ViewData["HotelId"] = new SelectList(_context.Hotels, "Id", "Id", reservation.HotelId);
             return View(reservation);
         }
 
@@ -142,7 +137,6 @@ namespace ProjetHotel.Controllers
             var reservation = await _context.Reservations
                 .Include(r => r.Chambre)
                 .Include(r => r.Client)
-                .Include(r => r.Hotel)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (reservation == null)
             {

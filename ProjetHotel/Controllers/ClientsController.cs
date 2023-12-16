@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ProjetHotel.Models;
-using ProjetHotel.Services;
 
 namespace ProjetHotel.Controllers
 {
@@ -22,10 +21,8 @@ namespace ProjetHotel.Controllers
         // GET: Clients
         public async Task<IActionResult> Index()
         {
-            HardCodedClientSampleDataRepository hardCodedClientSampleDataRepository = new HardCodedClientSampleDataRepository();
-
               return _context.Clients != null ? 
-                          View(hardCodedClientSampleDataRepository.getAllClients()) :
+                          View(await _context.Clients.ToListAsync()) :
                           Problem("Entity set 'ApplicationDbContext.Clients'  is null.");
         }
 

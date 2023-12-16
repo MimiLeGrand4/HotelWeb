@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maelm\\OneDrive\\Bureau\\Web3\\Projet\\hotelweb\\ProjetHotel\\ProjetHotel.csproj": {}
+    "C:\\Users\\Mael\\source\\repos\\ProjetHotel\\ProjetHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maelm\\OneDrive\\Bureau\\Web3\\Projet\\hotelweb\\ProjetHotel\\ProjetHotel.csproj": {
+    "C:\\Users\\Mael\\source\\repos\\ProjetHotel\\ProjetHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maelm\\OneDrive\\Bureau\\Web3\\Projet\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
+        "projectUniqueName": "C:\\Users\\Mael\\source\\repos\\ProjetHotel\\ProjetHotel.csproj",
         "projectName": "ProjetHotel",
-        "projectPath": "C:\\Users\\maelm\\OneDrive\\Bureau\\Web3\\Projet\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
-        "packagesPath": "C:\\Users\\maelm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maelm\\OneDrive\\Bureau\\Web3\\Projet\\hotelweb\\ProjetHotel\\obj\\",
+        "projectPath": "C:\\Users\\Mael\\source\\repos\\ProjetHotel\\ProjetHotel.csproj",
+        "packagesPath": "C:\\Users\\Mael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mael\\source\\repos\\ProjetHotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mael\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,10 +40,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Bogus": {
-              "target": "Package",
-              "version": "[34.0.2, )"
-            },
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
               "version": "[5.2.9, )"
@@ -70,7 +66,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.11, )"
             }
           },
           "imports": [
@@ -92,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

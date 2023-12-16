@@ -46,11 +46,16 @@ namespace ProjetHotel.Migrations
                     b.Property<int>("Prix")
                         .HasColumnType("int");
 
+                    b.Property<int?>("TypeChambreId")
+                        .HasColumnType("int");
+
                     b.Property<string>("UrlImage")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("TypeChambreId");
 
                     b.ToTable("Chambres");
                 });
@@ -224,6 +229,30 @@ namespace ProjetHotel.Migrations
                     b.ToTable("Reservations");
                 });
 
+            modelBuilder.Entity("ProjetHotel.Models.TypeChambre", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TypeChambres");
+                });
+
+            modelBuilder.Entity("ProjetHotel.Models.Chambre", b =>
+                {
+                    b.HasOne("ProjetHotel.Models.TypeChambre", null)
+                        .WithMany("chambres")
+                        .HasForeignKey("TypeChambreId");
+                });
+
             modelBuilder.Entity("ProjetHotel.Models.Message", b =>
                 {
                     b.HasOne("ProjetHotel.Models.Client", "Client")
@@ -271,6 +300,11 @@ namespace ProjetHotel.Migrations
                     b.Navigation("Client");
 
                     b.Navigation("Hotel");
+                });
+
+            modelBuilder.Entity("ProjetHotel.Models.TypeChambre", b =>
+                {
+                    b.Navigation("chambres");
                 });
 #pragma warning restore 612, 618
         }
