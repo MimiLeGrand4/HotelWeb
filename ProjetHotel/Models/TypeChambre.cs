@@ -7,7 +7,7 @@ namespace ProjetHotel.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int TypeChambreId { get; set; }
 
         [Required(ErrorMessage = "Le type d'une chambre est obligatoire.")]
         public string Type { get; set; }

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "ProjetHotel/1.0.0": {
         "dependencies": {
+          "Bogus": "35.0.1",
           "Microsoft.AspNet.Mvc": "5.2.9",
           "Microsoft.EntityFrameworkCore": "7.0.12",
           "Microsoft.EntityFrameworkCore.Design": "7.0.12",
@@ -50,6 +51,14 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "1.700.22.46903"
+          }
+        }
+      },
+      "Bogus/35.0.1": {
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "assemblyVersion": "35.0.1.0",
+            "fileVersion": "35.0.1.0"
           }
         }
       },
@@ -2569,6 +2578,13 @@
       "sha512": "sha512-eHEiCO/8+MfNc9nH5dVew/+FvxdaGrkRL4OMNwIz0W79+wtJyEoeRlXJ3SrXhoy9XR58geBYKmzMR83VO7bcAw==",
       "path": "azure.identity/1.7.0",
       "hashPath": "azure.identity.1.7.0.nupkg.sha512"
+    },
+    "Bogus/35.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LS9nczTM+frGJ9bdQV82WwEvt1tKaiIQq0kmeMhUyuzhWMRggo9WULTxhc++QjWQQ2bWp65lyt00nJt0meKD0g==",
+      "path": "bogus/35.0.1",
+      "hashPath": "bogus.35.0.1.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",

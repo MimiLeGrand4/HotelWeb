@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mael\\source\\repos\\ProjetHotel\\ProjetHotel.csproj": {}
+    "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\ProjetHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mael\\source\\repos\\ProjetHotel\\ProjetHotel.csproj": {
+    "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\ProjetHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mael\\source\\repos\\ProjetHotel\\ProjetHotel.csproj",
+        "projectUniqueName": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
         "projectName": "ProjetHotel",
-        "projectPath": "C:\\Users\\Mael\\source\\repos\\ProjetHotel\\ProjetHotel.csproj",
+        "projectPath": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
         "packagesPath": "C:\\Users\\Mael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mael\\source\\repos\\ProjetHotel\\obj\\",
+        "outputPath": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.0.1, )"
+            },
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
               "version": "[5.2.9, )"

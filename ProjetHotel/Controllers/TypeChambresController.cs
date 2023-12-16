@@ -35,7 +35,7 @@ namespace ProjetHotel.Controllers
             }
 
             var typeChambre = await _context.TypeChambres
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.TypeChambreId == id);
             if (typeChambre == null)
             {
                 return NotFound();
@@ -55,7 +55,7 @@ namespace ProjetHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Type")] TypeChambre typeChambre)
+        public async Task<IActionResult> Create([Bind("TypeChambreId,Type")] TypeChambre typeChambre)
         {
             if (ModelState.IsValid)
             {
@@ -87,9 +87,9 @@ namespace ProjetHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Type")] TypeChambre typeChambre)
+        public async Task<IActionResult> Edit(int id, [Bind("TypeChambreId,Type")] TypeChambre typeChambre)
         {
-            if (id != typeChambre.Id)
+            if (id != typeChambre.TypeChambreId)
             {
                 return NotFound();
             }
@@ -103,7 +103,7 @@ namespace ProjetHotel.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TypeChambreExists(typeChambre.Id))
+                    if (!TypeChambreExists(typeChambre.TypeChambreId))
                     {
                         return NotFound();
                     }
@@ -126,7 +126,7 @@ namespace ProjetHotel.Controllers
             }
 
             var typeChambre = await _context.TypeChambres
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.TypeChambreId == id);
             if (typeChambre == null)
             {
                 return NotFound();
@@ -156,7 +156,7 @@ namespace ProjetHotel.Controllers
 
         private bool TypeChambreExists(int id)
         {
-          return (_context.TypeChambres?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.TypeChambres?.Any(e => e.TypeChambreId == id)).GetValueOrDefault();
         }
     }
 }

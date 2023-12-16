@@ -32,7 +32,8 @@ namespace ProjetHotel.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(6000)
+                        .HasColumnType("VARCHAR");
 
                     b.Property<bool>("Disponible")
                         .HasColumnType("bit");
@@ -43,10 +44,11 @@ namespace ProjetHotel.Migrations
                     b.Property<int>("NuméroPorte")
                         .HasColumnType("int");
 
-                    b.Property<int>("Prix")
-                        .HasColumnType("int");
+                    b.Property<decimal?>("Prix")
+                        .IsRequired()
+                        .HasColumnType("decimal(18, 2)");
 
-                    b.Property<int?>("TypeChambreId")
+                    b.Property<int>("TypeChambreId")
                         .HasColumnType("int");
 
                     b.Property<string>("UrlImage")
@@ -92,43 +94,6 @@ namespace ProjetHotel.Migrations
                     b.ToTable("Clients");
                 });
 
-            modelBuilder.Entity("ProjetHotel.Models.Hotel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Adresse")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Nom")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Téléphone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UrlImage")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Hotels");
-                });
-
             modelBuilder.Entity("ProjetHotel.Models.Message", b =>
                 {
                     b.Property<int>("Id")
@@ -170,10 +135,10 @@ namespace ProjetHotel.Migrations
 
                     b.Property<string>("Méthode")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("VARCHAR");
 
                     b.Property<decimal>("Prix")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<int>("ReservationId")
                         .HasColumnType("int");
@@ -183,7 +148,7 @@ namespace ProjetHotel.Migrations
 
                     b.Property<string>("Satut")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("VARCHAR");
 
                     b.HasKey("Id");
 
@@ -212,11 +177,8 @@ namespace ProjetHotel.Migrations
                     b.Property<DateTime>("DateFin")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("HotelId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PrixCenne")
-                        .HasColumnType("int");
+                    b.Property<decimal>("Prix")
+                        .HasColumnType("decimal(18, 2)");
 
                     b.HasKey("Id");
 
@@ -224,33 +186,35 @@ namespace ProjetHotel.Migrations
 
                     b.HasIndex("ClientId");
 
-                    b.HasIndex("HotelId");
-
                     b.ToTable("Reservations");
                 });
 
             modelBuilder.Entity("ProjetHotel.Models.TypeChambre", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("TypeChambreId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TypeChambreId"));
 
                     b.Property<string>("Type")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("TypeChambreId");
 
                     b.ToTable("TypeChambres");
                 });
 
             modelBuilder.Entity("ProjetHotel.Models.Chambre", b =>
                 {
-                    b.HasOne("ProjetHotel.Models.TypeChambre", null)
+                    b.HasOne("ProjetHotel.Models.TypeChambre", "TypeChambre")
                         .WithMany("chambres")
-                        .HasForeignKey("TypeChambreId");
+                        .HasForeignKey("TypeChambreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("TypeChambre");
                 });
 
             modelBuilder.Entity("ProjetHotel.Models.Message", b =>
@@ -289,17 +253,9 @@ namespace ProjetHotel.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ProjetHotel.Models.Hotel", "Hotel")
-                        .WithMany()
-                        .HasForeignKey("HotelId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Chambre");
 
                     b.Navigation("Client");
-
-                    b.Navigation("Hotel");
                 });
 
             modelBuilder.Entity("ProjetHotel.Models.TypeChambre", b =>

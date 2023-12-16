@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5razNsczTYeYKJCftFqUQsiDWx+bF3oPATFIBTkfsbdJten6u+uq8EKlJ1EYqc3+8fibFST0iHmFoP3NqkPFRg==",
+  "dgSpecHash": "Bezz+bICoeqR3ePiUH+MxF4MEqf7ohUIofWniX7Oax2s/t79IXmRaULL4LGyFO5JpDaqF44zN3TdqwkbsJwmAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mael\\source\\repos\\ProjetHotel\\ProjetHotel.csproj",
+  "projectFilePath": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mael\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Mael\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Mael\\.nuget\\packages\\bogus\\35.0.1\\bogus.35.0.1.nupkg.sha512",
     "C:\\Users\\Mael\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Mael\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Mael\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
