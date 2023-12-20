@@ -23,7 +23,8 @@
                         <div class="p-4 mt-2">
                             <div class="d-flex justify-content-between mb-3">
                                     <h5 class="mb-0">Chambre @Html.DisplayFor(modelItem => item.Description)</h5>
-                                <!-- <div class="ps-2">
+                                    
+                                    <!-- <div class="ps-2">
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
@@ -34,6 +35,14 @@
                             <div class="d-flex mb-3">
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>@Html.DisplayFor(modelItem => item.NombreLit)</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                    @if (item.Disponible)
+                                    {
+                                        <small class="border-start me-3 pe-3" style="margin-left: 10px;"><i style="margin-left: 10px;" class="fa fa-solid fa-circle text-primary me-2"></i>Disponible</small>
+                                    }
+                                    else
+                                    {
+                                        <small class="border-start me-3 pe-3" style="margin-left: 10px;"><i style="margin-left: 10px; color: lightgray" class="fa fa-solid fa-circle me-2"></i>Non Disponible</small>
+                                    }
                             </div>
                             <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                             <div class="d-flex justify-content-between">
