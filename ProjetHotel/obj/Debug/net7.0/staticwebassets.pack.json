@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\img\\ImgChambre\\chambre_single_king.jpg"
     },
     {
+      "Id": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\wwwroot\\img\\ImgChambre\\chambre_single_queen.jpg",
+      "PackagePath": "staticwebassets\\img\\ImgChambre\\chambre_single_queen.jpg"
+    },
+    {
       "Id": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\wwwroot\\img\\ImgChambre\\chambre_standard.jpg",
       "PackagePath": "staticwebassets\\img\\ImgChambre\\chambre_standard.jpg"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ziYiH8PqoxuOzT1pGgLd7LZ5D4bvJuC2LZDt2LZaevk=",
+  "Hash": "Vom+8KDDs3Aem1Em9iSrAmaB99Dm5Zwym9ymmZvr/QE=",
   "Source": "ProjetHotel",
   "BasePath": "_content/ProjetHotel",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\ImgChambre\\chambre_single_king.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\wwwroot\\img\\ImgChambre\\chambre_single_queen.jpg",
+      "SourceId": "ProjetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\wwwroot\\",
+      "BasePath": "_content/ProjetHotel",
+      "RelativePath": "img/ImgChambre/chambre_single_queen.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\ImgChambre\\chambre_single_queen.jpg"
     },
     {
       "Identity": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\wwwroot\\img\\ImgChambre\\chambre_standard.jpg",
