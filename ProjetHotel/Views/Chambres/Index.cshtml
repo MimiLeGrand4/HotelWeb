@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<ProjetHotel.Models.Chambre>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Chambres";
 }
 
 <div class="container-xxl bg-white p-0">
@@ -38,7 +38,7 @@
                             <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                             <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="~/Chambres/Details/@item.Id">Voir Détails</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Réserver</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="~/Reservations/Create">Réserver</a>
                             </div>
                         </div>
                     </div>
