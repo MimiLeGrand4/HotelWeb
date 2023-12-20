@@ -49,6 +49,22 @@
       "PackagePath": "staticwebassets\\img\\ImgChambre\\chambre_suite.jpg"
     },
     {
+      "Id": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\wwwroot\\img\\ImgHome\\montagne-1.jpg",
+      "PackagePath": "staticwebassets\\img\\ImgHome\\montagne-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\wwwroot\\img\\ImgHome\\montagne-2.jpg",
+      "PackagePath": "staticwebassets\\img\\ImgHome\\montagne-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\wwwroot\\img\\ImgHome\\montagne-3.jpg",
+      "PackagePath": "staticwebassets\\img\\ImgHome\\montagne-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\wwwroot\\img\\ImgHome\\montagne-4.jpg",
+      "PackagePath": "staticwebassets\\img\\ImgHome\\montagne-4.jpg"
+    },
+    {
       "Id": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },

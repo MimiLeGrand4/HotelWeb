@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using ProjetHotel.Models;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+//var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -17,13 +19,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString);
 });
 
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
+
+
+
+builder.Services.AddRazorPages();
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    dbContext.Database.Migrate(); // Appliquer les migrations si nécessaire
-    dbContext.SeedData(); // Ajouter des données de test
+    dbContext.Database.Migrate(); // Appliquer les migrations si nï¿½cessaire
+    dbContext.SeedData(); // Ajouter des donnï¿½es de test
 }
 
 // Configure the HTTP request pipeline.
@@ -45,4 +52,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+app.MapRazorPages();
 app.Run();
