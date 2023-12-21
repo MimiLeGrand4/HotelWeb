@@ -65,10 +65,24 @@
             </div>
             <button id="btn-group-remove">Retirer un utilisateur du groupe</button>
         </div>
+        <div class="control-group">
+            <div>
+                <label for="username-for-message">Nom d'utilisateur :</label>
+                <input type="text" id="username-for-message" name="username-for-message" />
+            </div>
+            <div>
+                <label for="message-to-username">Message :</label>
+                <input type="text" id="message-to-username" name="message-to-username" />
+            </div>
+            <button id="btn-message-to-username">Envoyer à l'utilisateur</button>
+        </div>
+
     </div>
 
     <div class="col-md-7">
         <p>Messages SignalR :</p>
         <pre id="signalr-message-panel"></pre>
+        <button id="btn-clear-messages">Effacer les Messages</button>
     </div>
+
 </div>

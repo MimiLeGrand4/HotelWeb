@@ -51,6 +51,17 @@ $('#btn-group-remove').click(function () {
     // Invoque la méthode côté serveur 'RemoveUserFromGroup' avec le groupe spécifié
     connection.invoke("RemoveUserFromGroup", group).catch(err => console.error(err.toString()));
 });
+$('#btn-message-to-username').click(function () {
+    var username = $('#username-for-message').val();
+    var message = $('#message-to-username').val();
+    // Invoque la méthode côté serveur 'SendToUserByUsername' avec le username et le message spécifiés
+    connection.invoke("SendToUserByUsername", username, message)
+        .catch(err => console.error(err.toString()));
+});
+$('#btn-clear-messages').click(function () {
+    $('#signalr-message-panel').empty(); // Vide le contenu du panneau d'affichage
+});
+
 
 // Fonction asynchrone pour démarrer la connexion SignalR
 async function start() {

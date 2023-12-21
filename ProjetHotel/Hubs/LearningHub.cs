@@ -1,10 +1,18 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.SignalR;
 
 namespace ProjetHotel.Hubs
 {
     // Définit la classe LearningHub en tant que hub SignalR avec ILearningHubClient comme interface cliente
     public class LearningHub : Hub<ILearningHubClient>
     {
+        private static readonly Dictionary<string, string> _connections = new Dictionary<string, string>();
+        private readonly UserManager<IdentityUser> _userManager;
+        public LearningHub(UserManager<IdentityUser> userManager)
+        {
+            _userManager = userManager;
+        }
+
         // Méthode pour diffuser un message à tous les clients connectés
         public async Task BroadcastMessage(string message)
         {
@@ -54,20 +62,67 @@ namespace ProjetHotel.Hubs
         // Méthode appelée lorsqu'un client se connecte
         public override async Task OnConnectedAsync()
         {
+            var userId = Context.UserIdentifier;
+            var user = await _userManager.FindByIdAsync(userId);
+            var username = user?.UserName; // récupérer le username
+            if (!string.IsNullOrEmpty(username))
+            {
+                _connections[Context.ConnectionId] = username;
+            }
+            System.Diagnostics.Debug.WriteLine($"L'utilisateur {username} s'est connecté avec l'ID de connexion {Context.ConnectionId}");
             await base.OnConnectedAsync();
         }
 
         // Méthode appelée lorsqu'un client se déconnecte
         public override async Task OnDisconnectedAsync(Exception? exception)
         {
+            if (_connections.ContainsKey(Context.ConnectionId))
+            {
+                _connections.Remove(Context.ConnectionId);
+            }
             await base.OnDisconnectedAsync(exception);
         }
 
         // Méthode utilitaire pour formater un message avec l'ID de connexion du client
         private string GetMessageToSend(string originalMessage)
         {
-            return $"ID de connexion de l'utilisateur : {Context.ConnectionId}. Message : {originalMessage}";
+
+            // Récupérer le username associé à l'ID de connexion actuel
+            _connections.TryGetValue(Context.ConnectionId, out var username);
+
+            // Si le username n'est pas trouvé, vous pouvez choisir de retourner un message différent
+            // ou simplement utiliser une valeur par défaut comme "Inconnu"
+            username ??= "Inconnu";
+
+            // Formatage et renvoi du message avec le username
+            return $"ID de connexion de l'utilisateur : {Context.ConnectionId}. Utilisateur : {username}. Message : {originalMessage}";
         }
+        private string GetConnectionIdByUsername(string username)
+        {
+            var connectionId = _connections.FirstOrDefault(x => x.Value == username).Key;
+            return connectionId ?? string.Empty; // Retourne une chaîne vide si le username n'est pas trouvé
+        }
+        public IEnumerable<string> GetConnectedUsers()
+        {
+            return _connections.Values.Distinct();
+        }
+
+        public async Task SendToUserByUsername(string username, string message)
+        {
+            var connectionId = GetConnectionIdByUsername(username);
+            if (!string.IsNullOrEmpty(connectionId))
+            {
+                await Clients.Client(connectionId).ReceiveMessage(GetMessageToSend(message));
+            }
+            else
+            {
+                // Gérer le cas où l'utilisateur n'est pas trouvé ou n'est pas connecté
+                await Clients.Caller.ReceiveMessage($"L'utilisateur {username} n'est pas connecté.");
+            }
+        }
+
+
+
     }
 
 }
