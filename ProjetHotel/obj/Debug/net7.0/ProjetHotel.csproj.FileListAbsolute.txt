@@ -854,3 +854,6 @@ C:\Users\maelm\OneDrive\Bureau\Web3\hotelweb\ProjetHotel\obj\Debug\net7.0\refint
 C:\Users\maelm\OneDrive\Bureau\Web3\hotelweb\ProjetHotel\obj\Debug\net7.0\ProjetHotel.pdb
 C:\Users\maelm\OneDrive\Bureau\Web3\hotelweb\ProjetHotel\obj\Debug\net7.0\ProjetHotel.genruntimeconfig.cache
 C:\Users\maelm\OneDrive\Bureau\Web3\hotelweb\ProjetHotel\obj\Debug\net7.0\ref\ProjetHotel.dll
+C:\Users\Mael\Desktop\Web 3\hotelweb\ProjetHotel\bin\Debug\net7.0\SendGrid.dll
+C:\Users\Mael\Desktop\Web 3\hotelweb\ProjetHotel\bin\Debug\net7.0\SendGrid.Extensions.DependencyInjection.dll
+C:\Users\Mael\Desktop\Web 3\hotelweb\ProjetHotel\bin\Debug\net7.0\StarkbankEcdsa.dll
