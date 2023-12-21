@@ -5,12 +5,14 @@ using ProjetHotel.Settings;
 using SendGrid.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using ProjetHotel.Services;
+using ProjetHotel.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 //var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSignalR();
 
 var configuration = new ConfigurationBuilder()
 .SetBasePath(Directory.GetCurrentDirectory())
@@ -78,4 +80,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapRazorPages();
+app.MapHub<LearningHub>("/learningHub");
 app.Run();
