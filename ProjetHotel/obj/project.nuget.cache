@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X9ql48k1tKhc9FJF85Wislxdn/rWEsN7/ALISFbfm/9TTpTDLAQ0D2OhlmjdHq7Qd7EC4fYNWE063lvDcPF9KA==",
+  "dgSpecHash": "6xtNUto4QCxEwiKLd+pEc1D99BwoCS1p0KlsxB3cQYobF66Nu/NwPCfmxEtr/tkZAHbtV7APqw3eIwe5RMSVhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mael\\Desktop\\Web 3\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\Mael\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
     "C:\\Users\\Mael\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",
     "C:\\Users\\Mael\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.9\\microsoft.aspnet.webpages.3.2.9.nupkg.sha512",
+    "C:\\Users\\Mael\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\7.0.3\\microsoft.aspnetcore.authentication.google.7.0.3.nupkg.sha512",
     "C:\\Users\\Mael\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.12\\microsoft.aspnetcore.cryptography.internal.7.0.12.nupkg.sha512",
     "C:\\Users\\Mael\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.12\\microsoft.aspnetcore.cryptography.keyderivation.7.0.12.nupkg.sha512",
     "C:\\Users\\Mael\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.12\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.12.nupkg.sha512",
