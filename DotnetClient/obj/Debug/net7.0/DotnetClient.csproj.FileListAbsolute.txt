@@ -1,0 +1,155 @@
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\DotnetClient.exe
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\DotnetClient.deps.json
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\DotnetClient.runtimeconfig.json
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\DotnetClient.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\DotnetClient.pdb
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\bin\Debug\net7.0\System.IO.Pipelines.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.AssemblyReference.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\obj\Debug\net7.0\DotnetClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfoInputs.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfo.cs
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CoreCompileInputs.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CopyComplete
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\obj\Debug\net7.0\DotnetClient.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\obj\Debug\net7.0\refint\DotnetClient.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\obj\Debug\net7.0\DotnetClient.pdb
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\obj\Debug\net7.0\DotnetClient.genruntimeconfig.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\DotnetClient\obj\Debug\net7.0\ref\DotnetClient.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\DotnetClient.exe
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\DotnetClient.deps.json
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\DotnetClient.runtimeconfig.json
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\DotnetClient.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\DotnetClient.pdb
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\bin\Debug\net7.0\System.IO.Pipelines.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.AssemblyReference.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\obj\Debug\net7.0\DotnetClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfoInputs.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfo.cs
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CoreCompileInputs.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CopyComplete
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\obj\Debug\net7.0\DotnetClient.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\obj\Debug\net7.0\refint\DotnetClient.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\obj\Debug\net7.0\DotnetClient.pdb
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\obj\Debug\net7.0\DotnetClient.genruntimeconfig.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap2\DotnetClient\obj\Debug\net7.0\ref\DotnetClient.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\DotnetClient.exe
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\DotnetClient.deps.json
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\DotnetClient.runtimeconfig.json
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\DotnetClient.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\DotnetClient.pdb
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\bin\Debug\net7.0\System.IO.Pipelines.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.AssemblyReference.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfoInputs.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfo.cs
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CoreCompileInputs.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CopyComplete
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\obj\Debug\net7.0\refint\DotnetClient.dll
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.pdb
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.genruntimeconfig.cache
+C:\Users\dahamada\CoursApplicationsWebA23ASP.NET_Preparation\ExempleSignalRServerProjet\chap3\DotnetClient\obj\Debug\net7.0\ref\DotnetClient.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\DotnetClient.exe
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\DotnetClient.deps.json
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\DotnetClient.runtimeconfig.json
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\DotnetClient.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\DotnetClient.pdb
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\bin\Debug\net7.0\System.IO.Pipelines.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.AssemblyReference.cache
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfoInputs.cache
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfo.cs
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CoreCompileInputs.cache
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CopyComplete
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\obj\Debug\net7.0\refint\DotnetClient.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.pdb
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\obj\Debug\net7.0\DotnetClient.genruntimeconfig.cache
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\ExemplesSignalR\chap3\DotnetClient\obj\Debug\net7.0\ref\DotnetClient.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\DotnetClient.exe
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\DotnetClient.deps.json
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\DotnetClient.runtimeconfig.json
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\DotnetClient.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\DotnetClient.pdb
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\bin\Debug\net7.0\System.IO.Pipelines.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.AssemblyReference.cache
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\obj\Debug\net7.0\DotnetClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfoInputs.cache
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfo.cs
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CoreCompileInputs.cache
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CopyComplete
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\obj\Debug\net7.0\DotnetClient.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\obj\Debug\net7.0\refint\DotnetClient.dll
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\obj\Debug\net7.0\DotnetClient.pdb
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\obj\Debug\net7.0\DotnetClient.genruntimeconfig.cache
+C:\Users\ralph\OneDrive - Collège de Rosemont\Autonme\420-G63-RO\test\CH\hotelweb\DotnetClient\obj\Debug\net7.0\ref\DotnetClient.dll
