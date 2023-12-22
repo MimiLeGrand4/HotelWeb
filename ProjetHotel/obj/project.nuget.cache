@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2lihs4XwUdqjutdhIt0JI2ETQOb96M1kZhZJSdayiAL17uwvlm3jeARVSIE+Q1HzJhCXozOCKbHKNNnBNtdXJQ==",
+  "dgSpecHash": "j1V+nxBohOo2D4cOKg5xTy24e0NhwPX8ZhuY4BUWju0bqk30Paeg0JzLUF95mzoJuYTfoS4ZHZ081qKrm+KwEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\RCG\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
+  "projectFilePath": "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\Presentation\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ralph\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ralph\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

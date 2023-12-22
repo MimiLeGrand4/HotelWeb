@@ -21,17 +21,17 @@ $('#btn-broadcast').click(function () {
 });
 
 // Associe une fonction de rappel au clic du bouton avec l'ID 'btn-others-message'
-$('#btn-others-message').click(function () {
-    if (message) {
-        var message = $('#others-message').val();
-        // Invoque la méthode côté serveur 'SendToOthers' avec le message spécifié
-        connection.invoke("SendToOthers", message)
-            .then(() => alert("Message envoyé avec succès!"))
-            .catch(err => console.error(err.toString()));
-    } else {
-        alert("Veuillez entrer un message avant d'envoyer.");
-    }
-});
+//$('#btn-others-message').click(function () {
+//    if (message) {
+//        var message = $('#others-message').val();
+//        // Invoque la méthode côté serveur 'SendToOthers' avec le message spécifié
+//        connection.invoke("SendToOthers", message)
+//            .then(() => alert("Message envoyé avec succès!"))
+//            .catch(err => console.error(err.toString()));
+//    } else {
+//        alert("Veuillez entrer un message avant d'envoyer.");
+//    }
+//});
 
 // Associe une fonction de rappel au clic du bouton avec l'ID 'btn-self-message'
 $('#btn-self-message').click(function () {

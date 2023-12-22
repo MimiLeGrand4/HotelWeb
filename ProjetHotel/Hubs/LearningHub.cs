@@ -32,10 +32,10 @@ namespace ProjetHotel.Hubs
         }
 
         // Méthode pour envoyer un message à un client individuel en utilisant son ID de connexion
-        public async Task SendToIndividual(string connectionId, string message)
-        {
-            await Clients.Client(connectionId).ReceiveMessage(GetMessageToSend(message));
-        }
+        //public async Task SendToIndividual(string connectionId, string message)
+        //{
+        //    await Clients.Client(connectionId).ReceiveMessage(GetMessageToSend(message));
+        //}
 
         // Méthode pour envoyer un message à tous les clients d'un groupe spécifique
         public async Task SendToGroup(string groupName, string message)

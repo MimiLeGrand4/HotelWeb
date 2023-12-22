@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\RCG\\hotelweb\\ProjetHotel\\ProjetHotel.csproj": {}
+    "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\Presentation\\hotelweb\\ProjetHotel\\ProjetHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\RCG\\hotelweb\\ProjetHotel\\ProjetHotel.csproj": {
+    "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\Presentation\\hotelweb\\ProjetHotel\\ProjetHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\RCG\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
+        "projectUniqueName": "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\Presentation\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
         "projectName": "ProjetHotel",
-        "projectPath": "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\RCG\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
+        "projectPath": "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\Presentation\\hotelweb\\ProjetHotel\\ProjetHotel.csproj",
         "packagesPath": "C:\\Users\\ralph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\RCG\\hotelweb\\ProjetHotel\\obj\\",
+        "outputPath": "C:\\Users\\ralph\\OneDrive - Collège de Rosemont\\Autonme\\420-G63-RO\\test\\Presentation\\hotelweb\\ProjetHotel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
