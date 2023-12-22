@@ -66,15 +66,20 @@
             <button id="btn-group-remove">Retirer un utilisateur du groupe</button>
         </div>
         <div class="control-group">
-            <div>
-                <label for="username-for-message">Nom d'utilisateur :</label>
-                <input type="text" id="username-for-message" name="username-for-message" />
+            <div class="control-group">
+                <label for="user-select">Choisir un Utilisateur :</label>
+                <select id="user-select" name="user-select">
+                    <!-- Les options seront remplies dynamiquement -->
+                </select>
             </div>
             <div>
                 <label for="message-to-username">Message :</label>
-                <input type="text" id="message-to-username" name="message-to-username" />
+                <input type="text" id="message-to-username" name="message-to-username"/>
             </div>
+
             <button id="btn-message-to-username">Envoyer à l'utilisateur</button>
+
+
         </div>
 
     </div>

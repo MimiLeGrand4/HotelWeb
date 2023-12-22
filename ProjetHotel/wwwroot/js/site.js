@@ -52,12 +52,15 @@ $('#btn-group-remove').click(function () {
     connection.invoke("RemoveUserFromGroup", group).catch(err => console.error(err.toString()));
 });
 $('#btn-message-to-username').click(function () {
-    var username = $('#username-for-message').val();
-    var message = $('#message-to-username').val();
-    // Invoque la méthode côté serveur 'SendToUserByUsername' avec le username et le message spécifiés
-    connection.invoke("SendToUserByUsername", username, message)
-        .catch(err => console.error(err.toString()));
+    var selectedUser = $('#user-select').val(); // Récupère l'utilisateur sélectionné
+    var message = $('#message-to-username').val(); // Récupère le message
+    if (selectedUser && message) {
+        // Invoque la méthode du hub pour envoyer le message à l'utilisateur sélectionné
+        connection.invoke("SendToUserByUsername", selectedUser, message)
+            .catch(err => console.error(err.toString()));
+    }
 });
+
 $('#btn-clear-messages').click(function () {
     $('#signalr-message-panel').empty(); // Vide le contenu du panneau d'affichage
 });
@@ -78,6 +81,17 @@ async function start() {
 connection.onclose(async () => {
     await start();
 });
+connection.on("UpdateUsersList", function (users) {
+    updateUsersList(users);
+});
+function updateUsersList(users) {
+    const usersSelect = $('#user-select');
+    usersSelect.empty();
+    users.forEach(user => {
+        usersSelect.append($('<option></option>').val(user).text(user));
+    });
+}
+
 
 // Démarre la connexion lors du chargement de la page
 start();

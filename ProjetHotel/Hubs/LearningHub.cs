@@ -71,6 +71,7 @@ namespace ProjetHotel.Hubs
             }
             System.Diagnostics.Debug.WriteLine($"L'utilisateur {username} s'est connecté avec l'ID de connexion {Context.ConnectionId}");
             await base.OnConnectedAsync();
+            await Clients.All.UpdateUsersList(GetConnectedUsers());
         }
 
         // Méthode appelée lorsqu'un client se déconnecte
@@ -81,6 +82,7 @@ namespace ProjetHotel.Hubs
                 _connections.Remove(Context.ConnectionId);
             }
             await base.OnDisconnectedAsync(exception);
+            await Clients.All.UpdateUsersList(GetConnectedUsers());
         }
 
         // Méthode utilitaire pour formater un message avec l'ID de connexion du client
@@ -116,10 +118,10 @@ namespace ProjetHotel.Hubs
             }
             else
             {
-                // Gérer le cas où l'utilisateur n'est pas trouvé ou n'est pas connecté
                 await Clients.Caller.ReceiveMessage($"L'utilisateur {username} n'est pas connecté.");
             }
         }
+
 
 
 
