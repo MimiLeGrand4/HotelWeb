@@ -24,12 +24,12 @@
             t5.chambres = new List<Chambre>();
 
             Chambre c1 = new Chambre
-            { 
-                Description = "Standard", 
-                NuméroPorte = 101, 
-                NombreLit = 1, 
-                Prix = 120.00m, 
-                Disponible = true, 
+            {
+                Description = "Standard",
+                NuméroPorte = 101,
+                NombreLit = 1,
+                Prix = 120.00m,
+                Disponible = true,
                 UrlImage = "img/ImgChambre/chambre_standard.jpg",
                 TypeChambre = t3
             };
@@ -42,7 +42,7 @@
                 NuméroPorte = 102,
                 NombreLit = 1,
                 Prix = 120.00m,
-                Disponible = true,
+                Disponible = false,
                 UrlImage = "img/ImgChambre/chambre_standard.jpg",
                 TypeChambre = t3
             };
@@ -94,7 +94,7 @@
                 NuméroPorte = 301,
                 NombreLit = 3,
                 Prix = 750.00m,
-                Disponible = true,
+                Disponible = false,
                 UrlImage = "img/ImgChambre/chambre_suite.jpg",
                 TypeChambre = t5
             };
@@ -129,7 +129,7 @@
 
 
 
-            return new TypeChambre?[] { t1, t2, t3, t4, t5};
+            return new TypeChambre?[] { t1, t2, t3, t4, t5 };
         }
     }
 }
