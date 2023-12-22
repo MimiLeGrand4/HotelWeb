@@ -19,11 +19,27 @@ namespace ProjetHotel.Controllers
         }
 
         // GET: Chambres
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string tri)
         {
-              return _context.Chambres != null ? 
-                          View(await _context.Chambres.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Chambres'  is null.");
+            if (_context.Chambres != null)
+            {
+                var chambresTriees = tri switch
+                {
+                    "Prix" => await _context.Chambres.OrderBy(c => c.Prix).ToListAsync(),
+                    "Description" => await _context.Chambres.OrderBy(c => c.Description).ToListAsync(),
+                    "Disponible" => await _context.Chambres.OrderBy(c => c.Disponible).ToListAsync(),
+                    "Type" => await _context.Chambres.OrderBy(c => c.TypeChambre).ToListAsync(),
+                    // Ajoutez d'autres cas selon les options de tri
+                    _ => await _context.Chambres.ToListAsync(), // Tri par défaut
+                };
+
+                return View(chambresTriees);
+            }
+            return Problem("Entity set 'ApplicationDbContext.Chambres' is null.");
+
+            /*return _context.Chambres != null ? 
+                        View(await _context.Chambres.ToListAsync()) :
+                        Problem("Entity set 'ApplicationDbContext.Chambres'  is null.");*/
         }
 
         // GET: Chambres/Details/5
@@ -87,7 +103,7 @@ namespace ProjetHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Description,NuméroPorte,NombreLit,Prix,Disponible,UrlImage,TypeChambreId")] Chambre chambre)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Description,NuméroPorte,NombreLit,Prix,Disponible,UrlImage")] Chambre chambre)
         {
             if (id != chambre.Id)
             {
@@ -149,14 +165,14 @@ namespace ProjetHotel.Controllers
             {
                 _context.Chambres.Remove(chambre);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ChambreExists(int id)
         {
-          return (_context.Chambres?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Chambres?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

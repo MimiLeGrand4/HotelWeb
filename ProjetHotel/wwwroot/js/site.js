@@ -9,47 +9,77 @@ connection.on("ReceiveMessage", (message) => {
     $('#signalr-message-panel').prepend($('<div />').text(message));
 });
 
-// Associe une fonction de rappel au clic du bouton avec l'ID 'btn-broadcast'
 $('#btn-broadcast').click(function () {
-    var message = $('#broadcast').val();
-    // Invoque la méthode côté serveur 'BroadcastMessage' avec le message spécifié
-    connection.invoke("BroadcastMessage", message).catch(err => console.error(err.toString()));
+    var message = $('#broadcast').val().trim();
+    if (message) {
+        connection.invoke("BroadcastMessage", message)
+            .then(() => alert("Message diffusé avec succès!"))
+            .catch(err => console.error(err.toString()));
+    } else {
+        alert("Veuillez entrer un message avant de diffuser.");
+    }
 });
 
 // Associe une fonction de rappel au clic du bouton avec l'ID 'btn-others-message'
 $('#btn-others-message').click(function () {
-    var message = $('#others-message').val();
-    // Invoque la méthode côté serveur 'SendToOthers' avec le message spécifié
-    connection.invoke("SendToOthers", message).catch(err => console.error(err.toString()));
+    if (message) {
+        var message = $('#others-message').val();
+        // Invoque la méthode côté serveur 'SendToOthers' avec le message spécifié
+        connection.invoke("SendToOthers", message)
+            .then(() => alert("Message envoyé avec succès!"))
+            .catch(err => console.error(err.toString()));
+    } else {
+        alert("Veuillez entrer un message avant d'envoyer.");
+    }
 });
 
 // Associe une fonction de rappel au clic du bouton avec l'ID 'btn-self-message'
 $('#btn-self-message').click(function () {
-    var message = $('#self-message').val();
-    // Invoque la méthode côté serveur 'SendToCaller' avec le message spécifié
-    connection.invoke("SendToCaller", message).catch(err => console.error(err.toString()));
+    if (message) {
+        var message = $('#self-message').val();
+        // Invoque la méthode côté serveur 'SendToCaller' avec le message spécifié
+        connection.invoke("SendToCaller", message)
+            .then(() => alert("Message envoyé avec succès!"))
+            .catch(err => console.error(err.toString()));
+    } else {
+        alert("Veuillez entrer un message avant d'envoyer.");
+    }
 });
 
 // Associe une fonction de rappel au clic du bouton avec l'ID 'btn-group-message'
 $('#btn-group-message').click(function () {
-    var message = $('#group-message').val();
-    var group = $('#group-for-message').val();
-    // Invoque la méthode côté serveur 'SendToGroup' avec le groupe et le message spécifiés
-    connection.invoke("SendToGroup", group, message).catch(err => console.error(err.toString()));
+    if (message) {
+        var message = $('#group-message').val();
+        var group = $('#group-for-message').val();
+        // Invoque la méthode côté serveur 'SendToGroup' avec le groupe et le message spécifiés
+        connection.invoke("SendToGroup", group, message)
+            .then(() => alert("Message envoyé avec succès!"))
+            .catch(err => console.error(err.toString()));
+    }
+    else {
+        alert("Veuillez entrer un message avant d'envoyer.");
+    }
+    
 });
 
 // Associe une fonction de rappel au clic du bouton avec l'ID 'btn-group-add'
 $('#btn-group-add').click(function () {
     var group = $('#group-to-add').val();
+    if (!$('#group-to-add').val()) return alert("Veuillez entrer un nom de groupe avant d'ajouter.")
     // Invoque la méthode côté serveur 'AddUserToGroup' avec le groupe spécifié
-    connection.invoke("AddUserToGroup", group).catch(err => console.error(err.toString()));
+    connection.invoke("AddUserToGroup", group)
+        .then(() => alert("Groupe ajouté avec succès!"))
+        .catch(err => console.error(err.toString()));
 });
 
 // Associe une fonction de rappel au clic du bouton avec l'ID 'btn-group-remove'
 $('#btn-group-remove').click(function () {
     var group = $('#group-to-remove').val();
+    if (!$('#group-to-remove').val()) return alert("Veuillez entrer un nom de groupe avant de supprimer.")
     // Invoque la méthode côté serveur 'RemoveUserFromGroup' avec le groupe spécifié
-    connection.invoke("RemoveUserFromGroup", group).catch(err => console.error(err.toString()));
+    connection.invoke("RemoveUserFromGroup", group)
+        .then(() => alert("Groupe supprimé avec succès!"))
+        .catch(err => console.error(err.toString()));
 });
 $('#btn-message-to-username').click(function () {
     var selectedUser = $('#user-select').val(); // Récupère l'utilisateur sélectionné
@@ -57,7 +87,11 @@ $('#btn-message-to-username').click(function () {
     if (selectedUser && message) {
         // Invoque la méthode du hub pour envoyer le message à l'utilisateur sélectionné
         connection.invoke("SendToUserByUsername", selectedUser, message)
+            .then(() => alert("Message envoyé avec succès!"))
             .catch(err => console.error(err.toString()));
+    }
+    else {
+        alert("Veuillez sélectionner un utilisateur et entrer un message avant d'envoyer.");
     }
 });
 
