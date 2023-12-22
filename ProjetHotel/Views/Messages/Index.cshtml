@@ -4,90 +4,93 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat - Projet Hotel</title>
+    <!-- Assurez-vous d'inclure votre CSS ici -->
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <div class="chat-header">
+            <h1>Bienvenue dans le Chat</h1>
+        </div>
+        <div class="row" style="padding-top: 50px;">
+            <div class="col-md-4">
+                <!-- Diffuser -->
+                <div class="control-group">
+                    <label for="broadcast">Message</label>
+                    <input type="text" class="chat-input" id="broadcast" name="broadcast" />
+                    <button class="chat-send" id="btn-broadcast">Diffuser</button>
+                </div>
 
-<div class="row" style="padding-top: 50px;">
-    <div class="col-md-4">
-        <div class="control-group">
-            <div>
-                <label for="broadcast">Message</label>
-                <input type="text" id="broadcast" name="broadcast" />
-            </div>
-            <button id="btn-broadcast">Diffuser</button>
-        </div>
-        <div class="control-group">
-            <div>
-                <label for="others-message">Message</label>
-                <input type="text" id="others-message" name="others-message" />
-            </div>
-            <button id="btn-others-message">Envoyer aux autres</button>
-        </div>
-        <div class="control-group">
-            <div>
-                <label for="self-message">Message</label>
-                <input type="text" id="self-message" name="self-message" />
-            </div>
-            <button id="btn-self-message">Envoyer à soi-même</button>
-        </div>
-        <div class="control-group">
-            <div>
-                <label for="individual-message">Message</label>
-                <input type="text" id="individual-message" name="individual-message" />
-            </div>
-            <div>
-                <label for="connection-for-message">ID de connexion de l'utilisateur :</label>
-                <input type="text" id="connection-for-message" name="connection-for-message" />
-            </div>
-            <button id="btn-individual-message">Envoyer à un utilisateur spécifique</button>
-        </div>
-        <div class="control-group">
-            <div>
-                <label for="group-message">Message</label>
-                <input type="text" id="group-message" name="group-message" />
-            </div>
-            <div>
-                <label for="group-for-message">Nom du groupe</label>
-                <input type="text" id="group-for-message" name="group-for-message" />
-            </div>
-            <button id="btn-group-message">Envoyer au groupe</button>
-        </div>
-        <div class="control-group">
-            <div>
-                <label for="group-to-add">Nom du groupe</label>
-                <input type="text" id="group-to-add" name="group-to-add" />
-            </div>
-            <button id="btn-group-add">Ajouter un utilisateur au groupe</button>
-        </div>
-        <div class="control-group">
-            <div>
-                <label for="group-to-remove">Nom du groupe</label>
-                <input type="text" id="group-to-remove" name="group-to-remove" />
-            </div>
-            <button id="btn-group-remove">Retirer un utilisateur du groupe</button>
-        </div>
-        <div class="control-group">
-            <div class="control-group">
-                <label for="user-select">Choisir un Utilisateur :</label>
-                <select id="user-select" name="user-select">
-                    <!-- Les options seront remplies dynamiquement -->
-                </select>
-            </div>
-            <div>
-                <label for="message-to-username">Message :</label>
-                <input type="text" id="message-to-username" name="message-to-username"/>
+                <!-- Envoyer aux autres -->
+                <div class="control-group">
+                    <label for="others-message">Message</label>
+                    <input type="text" class="chat-input" id="others-message" name="others-message" />
+                    <button class="chat-send" id="btn-others-message">Envoyer aux autres</button>
+                </div>
+
+                <!-- Envoyer à soi-même -->
+                <div class="control-group">
+                    <label for="self-message">Message</label>
+                    <input type="text" class="chat-input" id="self-message" name="self-message" />
+                    <button class="chat-send" id="btn-self-message">Envoyer à soi-même</button>
+                </div>
+
+                <!-- Envoyer à un utilisateur spécifique -->
+                <div class="control-group">
+                    <label for="individual-message">Message</label>
+                    <input type="text" class="chat-input" id="individual-message" name="individual-message" />
+                    <label for="connection-for-message">ID de connexion de l'utilisateur :</label>
+                    <input type="text" class="chat-input" id="connection-for-message" name="connection-for-message" />
+                    <button class="chat-send" id="btn-individual-message">Envoyer à un utilisateur spécifique</button>
+                </div>
+
+                <!-- Envoyer au groupe -->
+                <div class="control-group">
+                    <label for="group-message">Message</label>
+                    <input type="text" class="chat-input" id="group-message" name="group-message" />
+                    <label for="group-for-message">Nom du groupe</label>
+                    <input type="text" class="chat-input" id="group-for-message" name="group-for-message" />
+                    <button class="chat-send" id="btn-group-message">Envoyer au groupe</button>
+                </div>
+
+                <!-- Ajouter un utilisateur au groupe -->
+                <div class="control-group">
+                    <label for="group-to-add">Nom du groupe</label>
+                    <input type="text" class="chat-input" id="group-to-add" name="group-to-add" />
+                    <button class="chat-send" id="btn-group-add">Ajouter un utilisateur au groupe</button>
+                </div>
+
+                <!-- Retirer un utilisateur du groupe -->
+                <div class="control-group">
+                    <label for="group-to-remove">Nom du groupe</label>
+                    <input type="text" class="chat-input" id="group-to-remove" name="group-to-remove" />
+                    <button class="chat-send" id="btn-group-remove">Retirer un utilisateur du groupe</button>
+                </div>
+
+                <!-- Envoyer à l'utilisateur sélectionné -->
+                <div class="control-group">
+                    <label for="user-select">Choisir un Utilisateur :</label>
+                    <select class="chat-input" id="user-select" name="user-select">
+                        <!-- Les options seront remplies dynamiquement -->
+                    </select>
+                    <label for="message-to-username">Message :</label>
+                    <input type="text" class="chat-input" id="message-to-username" name="message-to-username" />
+                    <button class="chat-send" id="btn-message-to-username">Envoyer à l'utilisateur</button>
+                </div>
             </div>
 
-            <button id="btn-message-to-username">Envoyer à l'utilisateur</button>
-
-
+            <div class="col-md-7">
+                <p>Messages SignalR :</p>
+                <div class="chat-messages" id="signalr-message-panel">
+                    <!-- Les messages SignalR s'afficheront ici -->
+                </div>
+                <button class="chat-send" id="btn-clear-messages">Effacer les Messages</button>
+            </div>
         </div>
-
     </div>
-
-    <div class="col-md-7">
-        <p>Messages SignalR :</p>
-        <pre id="signalr-message-panel"></pre>
-        <button id="btn-clear-messages">Effacer les Messages</button>
-    </div>
-
-</div>
+</body>
+</html>
