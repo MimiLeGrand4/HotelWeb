@@ -27,7 +27,7 @@ namespace ProjetHotel.Controllers
                 {
                     "Prix" => await _context.Chambres.OrderBy(c => c.Prix).ToListAsync(),
                     "Description" => await _context.Chambres.OrderBy(c => c.Description).ToListAsync(),
-                    "Disponible" => await _context.Chambres.OrderBy(c => c.Disponible).ToListAsync(),
+                    "Disponible" => await _context.Chambres.OrderByDescending(c => c.Disponible).ToListAsync(),
                     "Type" => await _context.Chambres.OrderBy(c => c.TypeChambre).ToListAsync(),
                     // Ajoutez d'autres cas selon les options de tri
                     _ => await _context.Chambres.ToListAsync(), // Tri par défaut

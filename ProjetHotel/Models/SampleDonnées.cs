@@ -42,7 +42,7 @@
                 NuméroPorte = 102,
                 NombreLit = 1,
                 Prix = 120.00m,
-                Disponible = true,
+                Disponible = false,
                 UrlImage = "img/ImgChambre/chambre_standard.jpg",
                 TypeChambre = t3
             };
@@ -94,7 +94,7 @@
                 NuméroPorte = 301,
                 NombreLit = 3,
                 Prix = 750.00m,
-                Disponible = true,
+                Disponible = false,
                 UrlImage = "img/ImgChambre/chambre_suite.jpg",
                 TypeChambre = t5
             };
