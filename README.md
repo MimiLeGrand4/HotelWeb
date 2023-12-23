@@ -53,7 +53,7 @@ Toutes les remarques ou informations supplémentaires concernant le projet seron
 
 ---
 
-**Date de Remise:** 13 décembre 2023
+**Date de Remise:** 22 décembre 2023
 
 **Professeur:** D. Ahamada
 
